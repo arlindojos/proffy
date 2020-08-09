@@ -1,0 +1,23 @@
+version: "3.8"
+
+services:
+    proffydb:
+        image: postgres:latest
+        volumes:
+            - proffy-db:/home/proffy/proffydb/data
+        networks:
+            - proffy-network
+        container_name: "proffydb"
+        restart: "always"
+        ports:
+            - "5432:5432"
+        environment:
+            - POSTGRES_USER=postgres
+            - POSTGRES_PASSWORD=my-password
+            - POSTGRES_DB=proffydb
+            
+networks: 
+    proffy-network:
+volumes: 
+    proffy-db:
+        

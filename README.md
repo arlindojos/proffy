@@ -72,7 +72,7 @@ Primeiro, clone o repositório para seu ambiente:
 Depois, entre no repositório clonado  e insira os seguintes comandos no seu terminal:
 
 ```bash
-# Para criar o banco de dados automaticamente
+# Para criar o banco de dados Postgres automaticamente, se quiser criar um manualmente fique a vantade, mas tem que ser Postgres e com os dados existentes no arquivo docker-compose-yml(user, password, database)
  > docker-compose up
 ```
 
@@ -89,28 +89,23 @@ Depois, entre no repositório clonado  e insira os seguintes comandos no seu ter
 > `npm run start`  ou `yarn start`
 ```
 # Proffy_web
+
+```bash
 # Entra no diretório "proffy_web"
 > cd ./proffy/proffy_web
 
-## para iniciar a apricação 
+# para iniciar a apricação 
 > `npm run start`  ou `yarn start`
+```
+
+será inicializada a aplicação em `http://localhost:3000`
 
 
+## 🤝 Contribuições
 
+## 📜 License
 
+O projeto está sobre a licença [MIT](./LICENSE) ❤️ 
 
+Gostou? Deixe uma estrelinha para ajudar o projeto ⭐
 
-
-## Conexões
-
-- Rota par listar o total de conexões realizadas;
-- Rota para criar uma nova conexão;
-
-## Aulas
-
-- Rota para criar uma aula;
-- Rota par listar aulas;
-    - Filtrar por matéria, dia da semana e horário;
-
-# Database 
-- postgres

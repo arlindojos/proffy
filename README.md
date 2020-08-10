@@ -56,7 +56,7 @@ Proffy foi construído com as seguintes techs:
   - [Express](https://expressjs.com/)
   - [Knex](http://knexjs.org/)
 - Banco de Dados
-  - [Sqlite3](https://www.sqlite.org/index.html)
+  - [Postgres](https://www.postgresql.org/)
 
 
 ## ⚙ Instalação e Start

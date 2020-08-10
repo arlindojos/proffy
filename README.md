@@ -53,6 +53,7 @@ Proffy foi construído com as seguintes techs:
   - [Typescript](https://www.typescriptlang.org/)
 - Server
   - [Node.js](https://nodejs.org/en/)
+  - [Typescript](https://www.typescriptlang.org/)
   - [Express](https://expressjs.com/)
   - [Knex](http://knexjs.org/)
 - Banco de Dados
@@ -100,8 +101,23 @@ Depois, entre no repositório clonado  e insira os seguintes comandos no seu ter
 
 será inicializada a aplicação em `http://localhost:3000`
 
-
 ## 🤝 Contribuições
+
+Siga os passos abaixo para contribuir:
+
+1. Faça o *fork* do projeto (<https://github.com/arlindojos/proffy>)
+
+2. Clone o seu *fork* para sua maquína (`git clone https://github.com/user_name/proffy.git`)
+
+3. Crie uma *branch* para realizar sua modificação (`git checkout -b feature/name_new_feature`)
+
+4. Adicione suas modificações e faça o *commit* (`git commit -m "Descreva sua modificação"`)
+
+5. *Push* (`git push origin feature/name_new_feature`)
+
+6. Crie um novo *Pull Request*
+
+7. Pronto, agora só aguardar a análise 🚀 
 
 ## 📜 License
 
